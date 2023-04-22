@@ -100,7 +100,7 @@ We performed the following:
 
 * Despite this, we can still suggest that a user might use the presence of `https` in addition to counting the number of directories and periods to raise their own suspiscion levels to mitigate phishing URLs
 
-#10. References
+# 10. References
 1. https://www.phishtank.com/developer_info.php  
 2. https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/code  
 3. https://majestic.com/reports/majestic-million  
