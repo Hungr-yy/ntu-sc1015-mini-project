@@ -98,6 +98,11 @@ We performed the following:
 
 * To further improve our models we could use a combination of different features, not just the top 5 identified during our EDA process, to possibly get a better results from our models. Another way we could have done better is to use Grid Search Cross-Validation instead of Random Search. Additionally, we could explore even more parameters, not just the one we tested through. Due to the very large dataset, this would have needed to use a lot of computing power, and might not have been viable for this project.
 
-*Despite this, we can still suggest that a user might use the presence of `https` in addition to counting the number of directories and periods to raise their own suspiscion levels to mitigate phishing URLs
+* Despite this, we can still suggest that a user might use the presence of `https` in addition to counting the number of directories and periods to raise their own suspiscion levels to mitigate phishing URLs
 
 #10. References
+1. https://www.phishtank.com/developer_info.php  
+2. https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/code  
+3. https://majestic.com/reports/majestic-million  
+4. https://www.projectpro.io/recipes/use-xgboost-classifier-and-regressor-in-python  
+5. https://towardsdatascience.com/tuning-with-hdbscan-149865ac2970
