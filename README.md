@@ -7,7 +7,7 @@ Group: 9
 Members:
 1. Ng Yoon Yik (@Hungr-yy)
 2. Karen Lee Sze Suen (@leekaren580)
-3. Chee Zheng Rong
+3. Chee Zheng Rong （@sheeshzr)
 
 This repository contains all the Jupyter Notebooks, datasets, images, video presentations, and the source materials/references used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI. The project undertaken is the detection of Phishing URLs.
 
@@ -27,6 +27,7 @@ This README outlines what we have accomplished in this project. If you want a mo
 
 ## 1. Problem Formulation
 **Question:** Can we detect phishing websites from benign ones using their respective URLs?
+
 **Datasets:**
 1. [Phishtank (retrieved on 17-4-23)](https://phishtank.org/developer_info.php)
 2. [Hannousse, Abdelhakim; Yahiouche, Salima (2021), “Web page phishing detection”, Mendeley Data, V3](https://data.mendeley.com/datasets/c2gw7fy2j4/3)
@@ -75,8 +76,8 @@ In conclusion, we managed to improve our Random Forest model by tuning its param
 
 We then decided to explore a different model, Logistic Regression, in order to distinguish between Phishing/Benign URLs
 
-1.**Cross Validation Score:** We performed k-fold cross validation to estimate the average performance of the model and got a mean score of 0.81.
-2.**Logistic Regression Model:** We fit our data into our Logistic regression model and obtained an accuracy of 0.8166 and F1 score of 0.81 This significantly lower performance discourages us to go further with the model.
+1.**Cross Validation Score:** We performed k-fold cross validation to estimate the average performance of the model and got a mean score of `0.81`.
+2.**Logistic Regression Model:** We fit our data into our Logistic regression model and obtained an accuracy of 0.8166 and F1 score of `0.81` This significantly lower performance discourages us to go further with the model.
 
 To conclude, although there is no indication of overfitting (as train and test accuracy is similar, the model might perform better with other variables (or combination of). A remedy to model performance would be to test other combinations of variables.
 
@@ -98,6 +99,11 @@ We performed the following:
 
 * To further improve our models we could use a combination of different features, not just the top 5 identified during our EDA process, to possibly get a better results from our models. Another way we could have done better is to use Grid Search Cross-Validation instead of Random Search. Additionally, we could explore even more parameters, not just the one we tested through. Due to the very large dataset, this would have needed to use a lot of computing power, and might not have been viable for this project.
 
-*Despite this, we can still suggest that a user might use the presence of `https` in addition to counting the number of directories and periods to raise their own suspiscion levels to mitigate phishing URLs
+* Despite this, we can still suggest that a user might use the presence of `https` in addition to counting the number of directories and periods to raise their own suspiscion levels to mitigate phishing URLs
 
-#10. References
+# 10. References
+1. https://www.phishtank.com/developer_info.php  
+2. https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/code  
+3. https://majestic.com/reports/majestic-million  
+4. https://www.projectpro.io/recipes/use-xgboost-classifier-and-regressor-in-python  
+5. https://towardsdatascience.com/tuning-with-hdbscan-149865ac2970
