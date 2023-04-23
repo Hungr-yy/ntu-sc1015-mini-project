@@ -7,7 +7,7 @@ Group: 9
 Members:
 1. Ng Yoon Yik (@Hungr-yy)
 2. Karen Lee Sze Suen (@leekaren580)
-3. Chee Zheng Rong
+3. Chee Zheng Rong （@sheeshzr)
 
 This repository contains all the Jupyter Notebooks, datasets, images, video presentations, and the source materials/references used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI. The project undertaken is the detection of Phishing URLs.
 
@@ -75,8 +75,8 @@ In conclusion, we managed to improve our Random Forest model by tuning its param
 
 We then decided to explore a different model, Logistic Regression, in order to distinguish between Phishing/Benign URLs
 
-1.**Cross Validation Score:** We performed k-fold cross validation to estimate the average performance of the model and got a mean score of 0.81.
-2.**Logistic Regression Model:** We fit our data into our Logistic regression model and obtained an accuracy of 0.8166 and F1 score of 0.81 This significantly lower performance discourages us to go further with the model.
+1.**Cross Validation Score:** We performed k-fold cross validation to estimate the average performance of the model and got a mean score of `0.81`.
+2.**Logistic Regression Model:** We fit our data into our Logistic regression model and obtained an accuracy of 0.8166 and F1 score of `0.81` This significantly lower performance discourages us to go further with the model.
 
 To conclude, although there is no indication of overfitting (as train and test accuracy is similar, the model might perform better with other variables (or combination of). A remedy to model performance would be to test other combinations of variables.
 
